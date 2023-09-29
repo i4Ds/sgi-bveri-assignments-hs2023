@@ -17,6 +17,13 @@ Click on the following badge to open the notebook in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/01_ml_recap/machine_learning_recap.ipynb)
 
 
+#### Exercise 02 - PyTorch
+
+Click on the following badge to open the notebook in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/02_pytorch/pytorch.ipynb)
+
+
 ### Jupyter-Hub
 
 We provide you with the online platform JHub at 
@@ -72,10 +79,10 @@ You can pull the image with an API token that allows for reading the container r
 
 ```
 # login to the FHNW GitLab docker registry first
-$ docker login cr.gitlab.fhnw.ch -u <username> -p t6dzYJnu--rfaPSPYz-i
+$ docker login cr.gitlab.fhnw.ch -u <username> -p -tr6TtDDnCuoaJWtvbYz
 
 # now pull the image
-$ docker pull cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-hs2023-exercises:v20221208
+$ docker pull cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-exercises-hs2023:latest
 ```
 
 #### 3. Fork this repository
@@ -105,7 +112,7 @@ $ docker run -d \
     --user root \
     -v MY_ML_DIR:/home/jovyan/work/ \
     --name=bveri_hs2023 \
-    cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-hs2023-exercises:v20221108 start.sh jupyter lab --LabApp.token=''
+    cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-exercises-hs2023:latest start.sh jupyter lab --LabApp.token=''
 ```
 
 #### 6. Check that your container is running
