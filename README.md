@@ -1,6 +1,6 @@
-# Exercises for BSc Informatik - beverI HS 2023
+# Exercises for BSc Informatik - bveri HS 2023
 
-This repository is used for the development and distribution of exercises for BSc Informatik - beverI HS 2023
+This repository is used for the development and distribution of exercises for BSc Informatik - bveri HS 2023
 
 
 ## Working on the exercises
