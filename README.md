@@ -14,7 +14,7 @@ Use Google Colab by clicking on the links below.
 
 Click on the following badge to open the notebook in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-beveri-assignments-hs2023/blob/main/assignments/01_ml_recap/machine_learning_recap.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/01_ml_recap/machine_learning_recap.ipynb)
 
 
 ### Jupyter-Hub
