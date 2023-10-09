@@ -17,11 +17,18 @@ Click on the following badge to open the notebook in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/01_ml_recap/machine_learning_recap.ipynb)
 
 
-#### Exercise 02 - PyTorch
+#### Exercise 02 - PyTorch & Machine Learning
 
 Click on the following badge to open the notebook in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/02_pytorch/pytorch.ipynb)
+
+
+#### Exercise 03 - Neuronale Netzwerke
+
+Click on the following badge to open the notebook in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/03_neural_networks/neural_networks.ipynb)
 
 
 ### Jupyter-Hub
@@ -54,7 +61,7 @@ To fetch new assignments from the main repo do as follows:
 
 ```
 # add original repo as remote upstream 
-$ git remote add upstream https://gitlab.fhnw.ch/ml/courses/bveri/bveri-hs2023-exercises.git
+$ git remote add upstream https://gitlab.fhnw.ch/ml/courses/bveri/hs2023/bveri-exercises-hs2023
 
 # now whenever you want to merge the changes from the remote upstream repo,
 # ie the one you forked from, you can do:
@@ -82,7 +89,7 @@ You can pull the image with an API token that allows for reading the container r
 $ docker login cr.gitlab.fhnw.ch -u <username> -p -tr6TtDDnCuoaJWtvbYz
 
 # now pull the image
-$ docker pull cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-exercises-hs2023:latest
+$ docker pull cr.gitlab.fhnw.ch/ml/courses/bveri/hs2023/bveri-exercises-hs2023:latest
 ```
 
 #### 3. Fork this repository
@@ -99,7 +106,7 @@ In your fork on GitLab find the address (`MY_REPO_FORK_ADDRESS`) with which you 
 Clone into your ml directory (`MY_ML_DIR`) using:
 
 ```
-$ git clone -b publish MY_REPO_FORK_HTTPS_ADDRESS
+$ git clone MY_REPO_FORK_HTTPS_ADDRESS
 ```
 
 
@@ -112,7 +119,7 @@ $ docker run -d \
     --user root \
     -v MY_ML_DIR:/home/jovyan/work/ \
     --name=bveri_hs2023 \
-    cr.gitlab.fhnw.ch/ml/courses/bveri/bveri-exercises-hs2023:latest start.sh jupyter lab --LabApp.token=''
+    cr.gitlab.fhnw.ch/ml/courses/bveri/hs2023/bveri-exercises-hs2023:latest start.sh jupyter lab --LabApp.token=''
 ```
 
 #### 6. Check that your container is running
@@ -141,11 +148,11 @@ To fetch new assignments from the main repo do as follows:
 
 ```
 # add original repo as remote upstream 
-$ git remote add upstream git@gitlab.fhnw.ch:ml/courses/bveri/bveri-hs2023-exercises.git
+$ git remote add upstream git@gitlab.fhnw.ch:ml/courses/bveri/hs2023/bveri-exercises-hs2023.git
 
 # now whenever you want to merge the changes from the remote upstream repo, ie
 the one you forked from, you can do:
-$ git pull upstream publish
+$ git pull upstream
 ```
 
 .. and add some merge message in case you have to merge.
