@@ -31,6 +31,16 @@ Click on the following badge to open the notebook in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/03_neural_networks/neural_networks.ipynb)
 
 
+### Local Installation
+
+pip install (not tested)
+
+```
+pip install -r requirements.txt
+```
+
+via Docker (see below).
+
 ### Jupyter-Hub
 
 We provide you with the online platform JHub at 
