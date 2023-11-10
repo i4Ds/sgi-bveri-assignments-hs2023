@@ -1,6 +1,20 @@
-opencv-python-headless
+# torch
+--index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
 torchshow
 torchviz
 torchinfo
+torchmetrics
+pytorch-lightning
+captum
+timm
+# images
+opencv-python-headless
+scikit-image
+# visualization
+seaborn
+matplotlib
+# misc
 gdown
-jupyter-black
