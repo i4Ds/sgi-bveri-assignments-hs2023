@@ -10,6 +10,8 @@ torchmetrics
 pytorch-lightning
 captum
 timm
+# machine learning
+scikit-learn
 # images
 opencv-python-headless
 scikit-image
