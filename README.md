@@ -58,6 +58,14 @@ Click on the following badge to open the notebook in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/06_object_detection/object_detection.ipynb)
 
 
+### Exercise 07 - Segmentation
+
+Click on the following badge to open the notebook in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/i4Ds/sgi-bveri-assignments-hs2023/blob/main/assignments/07_segmentation/segmentation.ipynb)
+
+
+
 
 ## Local - pip (not tested)
 
